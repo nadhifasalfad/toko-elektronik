@@ -9,7 +9,7 @@ class UserSeeder extends Seeder
     public function run()
     {
         $data = [
-            'username' => 'ao',
+            'username' => 'nadhif',
             'password' => password_hash('didi', PASSWORD_DEFAULT),
             'created_at' => date('Y-m-d H:i:s'),
         ];

@@ -3,7 +3,8 @@
 <?= $this->section('content'); ?>
 <div class="d-sm-flex align-items-center justify-content-between mb-4">
     <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm js-report-btn">
+    <a href="#" class="btn btn-sm shadow-sm js-report-btn"
+   style="background:#1A3D64; color:white;">
         <i class="fas fa-download fa-sm text-white-50"></i> Generate Report
     </a>
 </div>
@@ -118,14 +119,14 @@
             datasets: [{
                 label: "Earnings",
                 lineTension: 0.3,
-                backgroundColor: "rgba(78, 115, 223, 0.05)",
-                borderColor: "rgba(78, 115, 223, 1)",
+                backgroundColor: "rgba(26, 61, 100, 0.05)",
+                borderColor: "rgba(26, 61, 100, 1)",
                 pointRadius: 3,
-                pointBackgroundColor: "rgba(78, 115, 223, 1)",
-                pointBorderColor: "rgba(78, 115, 223, 1)",
+                pointBackgroundColor: "rgba(26, 61, 100, 1)",
+                pointBorderColor: "rgba(26, 61, 100, 1)",
                 pointHoverRadius: 3,
-                pointHoverBackgroundColor: "rgba(78, 115, 223, 1)",
-                pointHoverBorderColor: "rgba(78, 115, 223, 1)",
+                pointHoverBackgroundColor: "rgba(26, 61, 100, 1)",
+                pointHoverBorderColor: "rgba(26, 61, 100, 1)",
                 pointHitRadius: 10,
                 pointBorderWidth: 2,
                 // Data Dummy (Hardcoded)
@@ -176,8 +177,8 @@
             labels: ["Direct", "Social", "Referral"],
             datasets: [{
                 data: [55, 30, 15], // Data Dummy Persentase
-                backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
-                hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
+                backgroundColor: ['#1A3D64', '#1cc88a', '#36b9cc'],
+                hoverBackgroundColor: ['#1A3D64', '#17a673', '#2c9faf'],
                 hoverBorderColor: "rgba(234, 236, 244, 1)",
             }],
         },

@@ -86,7 +86,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `created_at`) VALUES
-(1, 'ao', '$2y$10$L6saCtCOPExcS53PxR7MyuBHXxbBqRxtlL6MwQu14RKL09TAaL0Vu', '2026-02-10 07:15:44');
+(1, 'nadhif', '$2y$10$L6saCtCOPExcS53PxR7MyuBHXxbBqRxtlL6MwQu14RKL09TAaL0Vu', '2026-02-10 07:15:44');
 
 --
 -- Indexes for dumped tables

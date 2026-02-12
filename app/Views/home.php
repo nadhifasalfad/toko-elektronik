@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        .hero { background: linear-gradient(135deg, #4e73df 0%, #224abe 100%); color: white; padding: 4rem 0; margin-bottom: 2rem; }
+        .hero { background: linear-gradient(135deg, #1A3D64 0%, #224abe 100%); color: white; padding: 4rem 0; margin-bottom: 2rem; }
     </style>
 </head>
 <body class="bg-light">
@@ -72,7 +72,7 @@
                     text: `Produk ${namaProduk} berhasil ditambahkan.`,
                     icon: 'success',
                     showCancelButton: true,
-                    confirmButtonColor: '#4e73df',
+                    confirmButtonColor: '#1A3D64',
                     cancelButtonColor: '#d33',
                     confirmButtonText: 'Bayar Sekarang',
                     cancelButtonText: 'Lanjut Belanja'
